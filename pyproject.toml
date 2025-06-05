@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Gaurav0002 <gauravking918@gmail.com>"]
 readme = "README.md"
-packages = [{ include = "qna_rag", from = "src" }]
+packages = [{ include = "app.py", from = "src" }]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<4.0"
